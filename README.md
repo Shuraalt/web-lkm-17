@@ -14,14 +14,14 @@ npm install
 
 Untuk Menjalankan Server Pengembangan (http://localhost:3000)
 npm run dev
---------------------------------------------------------------------------------------------
+#
 Struktur Folder Penting
 /src/app: Berisi route dan halaman utama aplikasi.
 
 /src/lib: Berisi data statis materi (lihat file materi.ts).
 
 /public: Berisi aset gambar dan file statis lainnya.
----------------------------------------------------------------------------------------------
+#
 Agar tidak terjadi konflik kode saat bekerja bersama, harap ikuti alur berikut:
 
 Selalu Pull Sebelum Push:
