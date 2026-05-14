@@ -81,37 +81,36 @@ export default function LKMPage() {
       <div className="relative">
   
         {/* 2. HERO SECTION */}
-       <section id="beranda" className="relative h-[85vh] flex flex-col items-center overflow-hidden">
-          {/* Background */}
+       <section id="beranda" className="relative min-h-[90vh] flex flex-col items-center justify-between overflow-hidden">
+          {/* Background - Tetap sama */}
           <div className="absolute inset-0 z-0">
             <Image src="/bg_hijau.png" alt="Landscape" fill priority className="object-cover" />
+            <div className="absolute inset-0 bg-linear-to-b from-[#f4f7ed]/20 via-transparent to-transparent" />
           </div>
 
-          {/* KONTEN TEKS */}
-          <div className="relative z-30 text-center px-4 pt-32 flex flex-col items-center">
-            <div className="bg-white p-3 rounded-full w-fit mx-auto mb-8 shadow-md">
+          {/* KONTEN TEKS - Dibuat grow agar mendorong avatar ke bawah */}
+          <div className="relative z-30 text-center px-4 pt-32 md:pt-40 flex flex-col items-center grow">
+            <div className="bg-white p-3 rounded-full w-fit mx-auto mb-6 shadow-md border border-slate-100">
               <Image src="/Logo LKM IF2.png" width={40} height={40} alt="Logo" />
             </div>
             
-            {/* Judul */}
-            <h1 className="text-3xl md:text-[2.75rem] font-bold uppercase tracking-[0.15em] mb-4 text-[#1a1a1a]">
+            <h1 className="text-2xl md:text-[2.75rem] font-bold uppercase tracking-[0.15em] mb-4 text-[#1a1a1a] leading-tight">
               LKM INFORMATIKA 25
             </h1>
 
-            {/* Deskripsi */}
-            <p className="text-slate-700 text-sm md:text-base font-medium tracking-tight mb-1">
-              Manifestasi Kepemimpinan Informatika Melalui Kolaborasi Digital.
-            </p>
-
-            {/* Slogan */}
-            <p className="text-slate-800 text-sm md:text-base  font-medium">
-              &ldquo;Erat Persatuan, Kokoh Pembaharuan.&rdquo;
-            </p>
+            <div className="space-y-1">
+              <p className="text-slate-700 text-xs md:text-base font-medium tracking-tight">
+                Manifestasi Kepemimpinan Informatika Melalui Kolaborasi Digital.
+              </p>
+              <p className="text-slate-800 text-xs md:text-base font-semibold italic">
+                &ldquo;Erat Persatuan, Kokoh Pembaharuan.&rdquo;
+              </p>
+            </div>
           </div>
 
-          {/* CONTAINER AVATAR */}
-          <div className="absolute bottom-0 left-0 right-0 z-20 flex items-end justify-center gap-x-6 md:gap-x-20 px-4">
-            <div className="relative h-62.5 md:h-105 w-36 md:w-64 shrink-0 translate-y-2">
+          {/* CONTAINER AVATAR - Gunakan relative dan margin top negatif agar tidak menabrak teks */}
+          <div className="relative z-20 flex items-end justify-center gap-x-4 md:gap-x-20 px-4 w-full mt-auto">
+            <div className="relative h-64 md:h-112.5 w-40 md:w-72 shrink-0 translate-y-4">
               <Image 
                 src="/char1.png" 
                 alt="Karakter 1" 
@@ -120,7 +119,7 @@ export default function LKMPage() {
               />
             </div>
 
-            <div className="relative h-62.5 md:h-105 w-36 md:w-64 shrink-0 translate-y-2">
+            <div className="relative h-64 md:h-112.5 w-40 md:w-72 shrink-0 translate-y-4">
               <Image 
                 src="/char2.png" 
                 alt="Karakter 2" 
@@ -136,8 +135,8 @@ export default function LKMPage() {
           <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 px-4">
             {[1, 2, 3, 4].map((i) => (
               <div key={i} className="flex items-center justify-center text-[#e4d5b2] italic">
-                <span className="text-3xl md:text-5xl font-bold mr-3">#1</span>
-                <div className="text-[10px] md:text-xs font-bold leading-tight uppercase">IDEOLOGI<br/>SOLIDARITAS</div>
+                <span className="text-3xl md:text-5xl font-semibold mr-3">#1</span>
+                <div className="text-[10px] md:text-xs font-medium leading-tight uppercase">IDEOLOGI<br/>SOLIDARITAS</div>
               </div>
             ))}
           </div>

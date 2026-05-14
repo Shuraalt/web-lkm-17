@@ -76,6 +76,15 @@ export default function DetailMateriPage() {
               ol: ({ ...props }) => <ol className="list-decimal ml-6 mb-6 space-y-2 text-slate-800" style={montserratStyle} {...props} />,
               li: ({ ...props }) => <li className="pl-1" style={montserratStyle} {...props} />,
               strong: ({ ...props }) => <strong className="font-bold text-slate-950" style={montserratStyle} {...props} />,
+              table: ({ ...props }) => (
+                <div className="overflow-x-auto my-6">
+                  <table className="w-full border-collapse border border-slate-400" {...props} />
+                </div>
+              ),
+              thead: ({ ...props }) => <thead className="bg-slate-200" {...props} />,
+              th: ({ ...props }) => <th className="border border-slate-400 px-4 py-2 font-bold text-center" style={montserratStyle} {...props} />,
+              td: ({ ...props }) => <td className="border border-slate-400 px-4 py-2 text-left" style={montserratStyle} {...props} />,
+              tr: ({ ...props }) => <tr className="even:bg-slate-50" {...props} />,
             }}
           >
             {materiFound.isi}
@@ -85,14 +94,14 @@ export default function DetailMateriPage() {
 
       {/* 3. FOOTER */}
       <footer className="bg-[#1a3a4a] py-12 mt-auto">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 px-6">
-          {[1, 2, 3, 4].map((i) => (
-            <div key={i} className="flex items-center justify-center text-[#e4d5b2] italic opacity-85">
-              <span className="text-3xl font-black mr-3" style={montserratStyle}>#1</span>
-              <div className="text-[10px] font-bold uppercase tracking-tighter" style={montserratStyle}>IDEOLOGI<br/>SOLIDARITAS</div>
-            </div>
-          ))}
-        </div>
+        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 px-4">
+            {[1, 2, 3, 4].map((i) => (
+              <div key={i} className="flex items-center justify-center text-[#e4d5b2] italic">
+                <span className="text-3xl md:text-5xl font-semibold mr-3">#1</span>
+                <div className="text-[10px] md:text-xs font-medium leading-tight uppercase">IDEOLOGI<br/>SOLIDARITAS</div>
+              </div>
+            ))}
+          </div>
       </footer>
     </main>
   );
