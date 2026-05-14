@@ -10,8 +10,8 @@ export const DATA_MATERI = {
 * Perumusan
 * Implementasi
 * Evaluasi
-* **Analisa Masyarakat**: yaitu proses memahami kondisi suatu kelompok secara sistematis.
-* **Pengembangan Masyarakat**: yaitu proses terencana untuk meningkatkan kualitas hidup suatu kelompok. Contoh: pemberdayaan, pemanfaatan potensi, penyelesaian masalah.
+* Analisa Masyarakat: yaitu proses memahami kondisi suatu kelompok secara sistematis.
+* Pengembangan Masyarakat: yaitu proses terencana untuk meningkatkan kualitas hidup suatu kelompok. Contoh: pemberdayaan, pemanfaatan potensi, penyelesaian masalah.
 
 ### Analisi & Pengembangan Masyarakat
 
