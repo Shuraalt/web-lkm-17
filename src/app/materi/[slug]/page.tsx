@@ -59,7 +59,7 @@ export default function DetailMateriPage() {
           </span>
         </div>
 
-        <p className="text-slate-500 text-sm italic mb-3" style={montserratStyle}>{materiFound.tanggal}</p>
+        <p className="text-slate-500 text-sm mb-3" style={montserratStyle}>{materiFound.tanggal}</p>
         <h1 className="text-3xl md:text-5xl font-bold mb-4" style={montserratStyle}>{materiFound.title}</h1>
         <p className="text-slate-700 text-lg font-semibold mb-10" style={montserratStyle}>Pemateri: {materiFound.pemateri}</p>
 
