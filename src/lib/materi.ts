@@ -346,23 +346,23 @@ Proses berkelanjutan untuk meningkatkan kemampuan organisasi. Yang melibatkan in
 Kekeluargaan di sini diartikan sebagai rasa memiliki (sense of belonging) antar sesama mahasiswa. Tujuannya adalah menciptakan lingkungan yang suportif secara emosional maupun akademis.
 
 **Pilar Utama Kekeluargaan**
-* **Solidaritas**: Perasaan senasib sepenanggungan.
-* **Komunikasi Dua Arah**: Menghilangkan sekat antara senior dan junior serta mempermudah koordinasi.
-* **Apresiasi**: Menghargai setiap pencapaian anggota jurusan.
+* Solidaritas: Perasaan senasib sepenanggungan.
+* Komunikasi Dua Arah: Menghilangkan sekat antara senior dan junior serta mempermudah koordinasi.
+* Apresiasi: Menghargai setiap pencapaian anggota jurusan.
 
 **Mengapa Kekeluargaan itu Penting?**
-1. **Jaring Pengaman Akademik**: Kamu tidak akan "berjuang sendirian".
-2. **Networking**: Relasi yang dibangun biasanya bertahan hingga dunia kerja.
-3. **Pengembangan Soft Skills**: Belajar empati, resolusi konflik, dan kolaborasi.
+1. Jaring Pengaman Akademik: Kamu tidak akan "berjuang sendirian".
+2. Networking: Relasi yang dibangun biasanya bertahan hingga dunia kerja.
+3. Pengembangan Soft Skills: Belajar empati, resolusi konflik, dan kolaborasi.
 
 **Etika dan Tata Krama (Social Grace)**
-* **Etika Menghubungi Dosen/Senior**: Bagaimana berkomunikasi secara sopan melalui pesan singkat.
-* **Saling Menjaga Nama Baik**: Kesadaran bahwa tindakan satu orang berdampak pada citra seluruh jurusan.
-* **Hierarki yang Sehat**: Menghormati yang lebih tua dan menyayangi yang lebih muda, tanpa unsur perpeloncoan fisik.
+* Etika Menghubungi Dosen/Senior: Bagaimana berkomunikasi secara sopan melalui pesan singkat.
+* Saling Menjaga Nama Baik: Kesadaran bahwa tindakan satu orang berdampak pada citra seluruh jurusan.
+* Hierarki yang Sehat: Menghormati yang lebih tua dan menyayangi yang lebih muda, tanpa unsur perpeloncoan fisik.
 
 **Loyalitas dan Pengabdian**
-* **Regenerasi**: Keinginan untuk mendidik adik tingkat agar lebih baik dari kita.
-* **Jiwa Korsa**: Rela meluangkan waktu dan tenaga demi kepentingan bersama.`,
+* Regenerasi: Keinginan untuk mendidik adik tingkat agar lebih baik dari kita.
+* Jiwa Korsa: Rela meluangkan waktu dan tenaga demi kepentingan bersama.`,
     },
   ],
 };
