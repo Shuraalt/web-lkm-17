@@ -1,4 +1,4 @@
-# Web LKM 17 - Fakultas Teknik UNSIL
+# Web LKM 17
 
 ## 🚀 Cara Menjalankan Proyek Lokal
 
