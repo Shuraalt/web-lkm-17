@@ -1,6 +1,6 @@
 # Web LKM 17
 
-## 🚀 Cara Menjalankan Proyek Lokal
+## Cara Menjalankan Proyek Lokal
 
 Ikuti langkah-langkah di bawah ini untuk menjalankan website di komputer kamu:
 

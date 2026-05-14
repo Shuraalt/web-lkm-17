@@ -32,7 +32,6 @@ export default function DetailMateriPage() {
 
   if (!materiFound) return null;
 
-  // Variabel untuk memudahkan pemanggilan style font
   const montserratStyle = { fontFamily: 'var(--font-montserrat), sans-serif' };
 
   return (
@@ -66,7 +65,7 @@ export default function DetailMateriPage() {
 
         <div className="w-full h-px bg-slate-300 mb-12 opacity-60" />
 
-        {/* AREA ISI MATERI - Menghapus 'node' untuk fix ESLint */}
+        {/* ISI MATERI */}
         <article className="text-slate-900 leading-relaxed" style={montserratStyle}>
           <ReactMarkdown 
             remarkPlugins={[remarkGfm]}

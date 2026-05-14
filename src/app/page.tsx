@@ -268,7 +268,7 @@ function CardMateri({ title, pemateri, tanggal }: { title: string, pemateri: str
         </div>
 
         <div className="mt-auto">
-          <p className="text-xs font-semibold text-slate-500 italic">
+          <p className="text-xs font-semibold text-slate-500">
             Pemateri: {pemateri}
           </p>
           <p className="text-[10px] text-slate-400 mt-1">
