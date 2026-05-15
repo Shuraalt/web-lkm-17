@@ -404,11 +404,6 @@ export const DATA_ANGGOTA = [
     img: "/Deanka.jpeg",
   },
   {
-    name: "Muhamad Dyraj Alrasya",
-    npm: "257006111219",
-    img: "/Dyraj.jpeg",
-  },
-  {
     name: "Daffa Dinullah",
     npm: "257006111121",
     img: "/Daffa.jpeg",
@@ -416,7 +411,7 @@ export const DATA_ANGGOTA = [
   {
     name: "Fasha Octa Ramdani",
     npm: "257006111076",
-    img: "/Fasha.jpeg",
+    img: "/Fasha1.jpeg",
   },
 ];
 
